@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/00f7aee9e6.js" crossorigin="anonymous"></script>
+    <script defer src="js/script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pixelify+Sans:wght@400..700&display=swap');
+    </style>
+    <title>TapSwap</title>
+</head>
+<body>
+    <div id="sparkles-container"></div>
+    <div id="loadingScreen" class="loading-screen">
+        <div class="spinner"></div>
+    </div>
+    <div class="container lexend-container">
+        <div class="top-bar">
+            <button id="voteButton" class="vote-button lexend-button">
+                <i class="fa-solid fa-user"> </i>
+                <span>User</span>
+            </button>
+            <button class="legendary-button lexend-button">
+                <i class="fas fa-trophy"></i>
+                <span>Rank</span>
+            </button>
+        </div>
+        <div class="top-section">
+            <!-- Top section content -->
+        </div>
+        <!-- New text element added -->
+        <div class="balance-text">
+            <img src="img/subimage.png" alt="Icon" class="balance-icon">
+            <span id="balanceAmount">1677000000</span>
+        </div>
+        
+        <div class="bulb">
+            <img src="img/coin.png" alt="Coin" class="coin-image">
+        </div>
+        
+        <div class="farming-button-container">
+            <button id="startFarming" class="farming-button lexend-button">
+                <span id="farmingStatus">Start Farming</span>
+                <span id="farmingPoints" style="display: none;">0.000</span>
+            </button>
+        </div>
+        <div class="bottom-menu">
+            <button id="inviteButton" class="menu-btn lexend-button"><i class="fas fa-user-plus"></i><span>Invite</span></button>
+            <button id="farmButton" class="menu-btn lexend-button"><i class="fas fa-hammer"></i><span>Farm</span></button>
+            <button id="taskButton" class="menu-btn lexend-button"><i class="fas fa-bars-progress"></i><span>Task</span></button>
+        </div>
+    </div>
+</body>
+</html>
